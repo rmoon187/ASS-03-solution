@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/be46bcc6b4.js" crossorigin="anonymous"></script>
+
+  <!-- daisy ui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            bgPrimary: '#ABEF5F',
+            secondaryColor: '#ABEF5F80',
+          }
+        }
+      }
+    }
+
+  </script>
+
+  <style>
+    .font-manrope {
+      font-family: "Manrope", sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-manrope">
+
+  <header class=" py-6 bg-gradient-to-b from-white to-white/0">
+    <div class="container max-w-screen-xl mx-auto">
+
+      <!-- navbar -->
+      <div class="navbar space-x-28  ">
+
+        <div class="navbar-start space-x-2 ml-5">
+          <!-- logo -->
+          <i
+            class="fas fa-arrow-right -rotate-45 bg-bgPrimary w-9 h-9 rounded-full flex items-center justify-center "></i>
+          <h1 class="text-3xl font-extrabold">Rinterio</h1>
+        </div>
+
+        <!-- nav center -->
+        <div class="navbar-center  mr-32">
+          <ul class="menu menu-horizontal px-1  space-x-3 tracking-wider hidden lg:flex">
+            <li><a class="font-extrabold">Home</a></li>
+            <div class="text-gray-600 flex">
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </div>
+          </ul>
+
+          <!-- hamburger -->
+          <div
+            class="w-14 h-14 rounded-full bg-white flex items-center justify-center border border-[#e9e9e9] lg:hidden">
+            <div class="space-y-1">
+              <div class="w-6 h-0.5 bg-gray-500"></div>
+              <div class="w-6 h-0.5 bg-gray-500"></div>
+              <div class="w-6 h-0.5 bg-gray-500"></div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- nav end -->
+        <div class="navbar-end hidden lg:flex  space-x-5">
+          <div class="box-border border border-[#e9e9e9] rounded-[56px] bg-white px-3 py-2">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="box-border border border-[#e9e9e9] rounded-[56px] bg-white px-3 py-2">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <a class=" btn font-extrabold w-[180px] rounded-3xl text-base bg-bgPrimary ">Book Consult <i
+              class="fas fa-arrow-right bg-black text-white px-2 py-2 rounded-full -rotate-45  "></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- banner -->
+      <div class="text-center space-y-7 w-11/12 lg:w-4/5 mx-auto mt-14 mb-10 lg:mb-28">
+        <img src="assets/banner.png" alt="house" class="mx-auto">
+        <h1 class="font-black text-3xl lg:text-6xl text-gray-800 lg:leading-tight">A barn house of this design has a
+          striking
+          appearance</h1>
+        <p class="text-gray-800 font-medium tracking-wide ">The barn house captivates with its blend of rustic charm
+          and
+          modern sophistication, featuring weathered wood, sleek metal accents, and large windows with Italic glass
+          that
+          flood the space with natural light.</p>
+        <a
+          class=" btn font-black w-full  lg:w-[170px] h-16 lg:h-10 rounded-full lg:rounded-3xl text-xl lg:text-base bg-secondaryColor  border border-[rgb(171,239,95)] ">View
+          Details
+          <i class="fas fa-arrow-right -rotate-45 bg-bgPrimary rounded-full px-2 py-2 "></i>
+        </a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <!-- gray div -->
+    <div class="bg-base-200 ">
+      <div class="container max-w-screen-xl mx-auto">
+
+        <!-- about us -->
+        <section class="relative">
+          <img src="assets/Vector.png" alt="vector" class="absolute top-16 -left-8">
+          <div class="hero py-28  ">
+            <div class="hero-content flex-col lg:flex-row gap-10">
+
+              <div class="space-y-6 w-2/4">
+                
+                <button class="bg-white rounded-3xl w-32 font-bold py-1 "><i class="fas fa-arrow-right mr-2"></i>About Us</button>
+                <h3 class="text-5xl font-bold leading-tight ">We design thoughtful,<br> liveable spaces</h3>
+                <p class="font-medium">
+                  At our core, we believe in creating spaces that not only reflect your personality but also enhance everyday living. Our designs blend functionality with aesthetics.
+                </p>
+
+                <!-- card 1 -->
+                <div class="card lg:card-side bg-base-100 shadow-xl ">
+                  <figure class="ml-6">
+                    <img
+                      src="assets/commercial.png"
+                      alt="card" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Commercial</h2>
+                    <p class="w-3/4 text-gray-500 font-medium">Transforming commercial houses into vibrant, functional environments that inspires.</p>
+                  </div>
+                </div>
+
+                <!-- card2 -->
+                <div class="card lg:card-side bg-base-100 shadow-xl">
+                  <figure class="ml-6">
+                    <img
+                      src="assets/residential.png"
+                      alt="card" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Residential</h2>
+                    <p class="w-3/4 text-gray-500 font-medium">Crafting durable and elegant residential buildings that turn houses into lasting homes .</p>
+                  </div>
+                </div>
+                    
+              </div>
+
+              <div>
+                <img src="assets/Rectangle.png" class=" rounded-lg shadow-2xl" />
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
