@@ -118,53 +118,55 @@
   <main>
 
     <!-- gray div -->
-    <div class="bg-base-200 ">
+    <div class="bg-base-200  ">
       <div class="container max-w-screen-xl mx-auto">
 
         <!-- about us -->
         <section class="relative">
-          <img src="assets/Vector.png" alt="vector" class="absolute top-16 -left-8">
-          <div class="hero py-28  ">
+          <img src="assets/Vector.png" alt="vector" class="absolute top-16 -left-8 hidden lg:flex">
+          <div class="hero  py-8 lg:py-28  ">
             <div class="hero-content flex-col lg:flex-row gap-10">
 
-              <div class="space-y-6 w-2/4">
-                
-                <button class="bg-white rounded-3xl w-32 font-bold py-1 "><i class="fas fa-arrow-right mr-2"></i>About Us</button>
-                <h3 class="text-5xl font-bold leading-tight ">We design thoughtful,<br> liveable spaces</h3>
+              <div class=" space-y-6 text-center lg:text-left lg:w-2/4">
+
+                <button
+                  class="bg-white text-xl lg:text-base rounded-full lg:rounded-3xl w-40 lg:w-32 font-bold py-3 lg:py-1 "><i
+                    class="fas fa-arrow-right mr-2"></i>About Us</button>
+                <h3 class="text-3xl lg:text-5xl font-black leading-tight ">We design thoughtful,<br> liveable spaces
+                </h3>
                 <p class="font-medium">
-                  At our core, we believe in creating spaces that not only reflect your personality but also enhance everyday living. Our designs blend functionality with aesthetics.
+                  At our core, we believe in creating spaces that not only reflect your personality but also enhance
+                  everyday living. Our designs blend functionality with aesthetics.
                 </p>
 
                 <!-- card 1 -->
-                <div class="card lg:card-side bg-base-100 shadow-xl ">
-                  <figure class="ml-6">
-                    <img
-                      src="assets/commercial.png"
-                      alt="card" />
+                <div class="card flex-row lg:card-side  bg-base-100 shadow-xl card-compact ">
+                  <figure class="ml-6 -mt-16 lg:mt-0 ">
+                    <img src="assets/commercial.png" alt="card" />
                   </figure>
-                  <div class="card-body">
-                    <h2 class="card-title">Commercial</h2>
-                    <p class="w-3/4 text-gray-500 font-medium">Transforming commercial houses into vibrant, functional environments that inspires.</p>
+                  <div class="card-body text-left">
+                    <h2 class="card-title text-base lg:text-xl">Commercial</h2>
+                    <p class="w-11/12 lg:w-3/4 text-gray-500 font-medium">Transforming commercial houses into vibrant,
+                      functional environments that inspires.</p>
                   </div>
                 </div>
 
                 <!-- card2 -->
-                <div class="card lg:card-side bg-base-100 shadow-xl">
-                  <figure class="ml-6">
-                    <img
-                      src="assets/residential.png"
-                      alt="card" />
+                <div class="card flex-row lg:card-side bg-base-100 shadow-xl card-compact ">
+                  <figure class="ml-6 -mt-16 lg:mt-0 ">
+                    <img src="assets/residential.png" alt="card" />
                   </figure>
-                  <div class="card-body">
-                    <h2 class="card-title">Residential</h2>
-                    <p class="w-3/4 text-gray-500 font-medium">Crafting durable and elegant residential buildings that turn houses into lasting homes .</p>
+                  <div class="card-body text-left">
+                    <h2 class="card-title text-base lg:text-xl">Residential</h2>
+                    <p class="w-11/12 lg:w-3/4 text-gray-500 font-medium">Crafting durable and elegant residential
+                      buildings that turn houses into lasting homes .</p>
                   </div>
                 </div>
-                    
+
               </div>
 
-              <div>
-                <img src="assets/Rectangle.png" class=" rounded-lg shadow-2xl" />
+              <div class="overflow-hidden rounded-3xl lg:rounded-lg  w-full lg:w-2/4  h-[230px]  lg:h-[520px] relative ">
+                <img src="assets/Rectangle.png" class="  absolute top-0 left-0 w-full h-full transform scale-100 object-cover   " />
               </div>
 
             </div>
