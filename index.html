@@ -107,7 +107,8 @@
         <a
           class=" btn font-black w-full  lg:w-[170px] h-16 lg:h-10 rounded-full lg:rounded-3xl text-xl lg:text-base bg-secondaryColor  border border-[rgb(171,239,95)] ">View
           Details
-          <i class="fas fa-arrow-right -rotate-45 bg-bgPrimary w-7 h-7 rounded-full flex items-center justify-center "></i>
+          <i
+            class="fas fa-arrow-right -rotate-45 bg-bgPrimary w-7 h-7 rounded-full flex items-center justify-center "></i>
         </a>
       </div>
 
@@ -227,7 +228,7 @@
 
     <!-- connect sec -->
     <section
-      class="bg-[url('/assets/bg.jpg')]  bg-cover bg-center bg-no-repeat box-border border-[7px] border-white py-24 ">
+      class="bg-[url('/assets/bg.jpg')]  bg-cover bg-center bg-no-repeat box-border border-[5px] lg:border-[7px] border-white px-7 py-12 lg:py-24  ">
 
       <div class="container  max-w-screen-lg mx-auto  text-center space-y-8 ">
         <button
@@ -235,13 +236,13 @@
             class="fas fa-arrow-right mr-2"></i>Let’s Connect</button>
         <h3 class="text-3xl lg:text-5xl font-black leading-tight ">Let’s Discuss Next Project
         </h3>
-        <p class="font-semibold  w-11/12 lg:w-5/6  mx-auto  tracking-wider">
+        <p class="font-semibold  w-full lg:w-5/6  mx-auto  tracking-wider">
           Ready to bring your vision to life? Let’s collaborate on your next project, combining our expertise with your
           ideas to create something exceptional.
         </p>
 
         <!-- form -->
-        <div class="grid grid-cols-2 gap-6  ">
+        <div class="grid   lg:grid-cols-2 gap-6  ">
           <label class="input  flex items-center rounded-full">
             <input type="text" placeholder="First Name*" />
           </label>
@@ -258,19 +259,42 @@
         </div>
 
         <button class=" btn font-extrabold w-full rounded-3xl text-base bg-bgPrimary ">Send Mail <i
-          class="fas fa-arrow-right bg-black text-white w-7 h-7 rounded-full flex items-center justify-center -rotate-45  "></i>
+            class="fas fa-arrow-right bg-black text-white w-7 h-7 rounded-full flex items-center justify-center -rotate-45  "></i>
         </button>
 
       </div>
 
     </section>
 
-
   </main>
 
-  <footer>
+
+  <footer class="footer footer-center bg-[rgb(28,28,28)]  text-white rounded py-24">
+
+    <div class="flex">
+      <i class="fas fa-arrow-right -rotate-45 bg-bgPrimary w-7 h-7 rounded-full flex items-center justify-center text-black "></i>
+      <h1 class="text-3xl font-extrabold">Rinterio</h1> 
+    </div>
+
+    <p class="text-[rgb(115,115,115)] w-2/5 font-semibold tracking-wide leading-6 -mt-6 ">At Rinterio, we’re dedicated to creating spaces that blend style with functionality. Stay in touch for the latest in our design and construction endeavors.</p>
+    
+    <ul class="menu menu-horizontal   space-x-24 tracking-wider ">
+      <li><a class="font-extrabold">Home</a></li>
+      <div class=" flex gap-20">
+        <li><a>Services</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blogs</a></li>
+        <li><a>Contact Us</a></li>
+      </div>
+    </ul>
+
+    <a class=" btn font-extrabold w-[180px] rounded-3xl text-base bg-bgPrimary flex ">Book Consult <i
+      class="fas fa-arrow-right bg-black text-white w-7 h-7 rounded-full flex items-center justify-center -rotate-45  "></i>
+  </a>
+
 
   </footer>
+
 
 </body>
 
