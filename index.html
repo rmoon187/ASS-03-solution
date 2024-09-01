@@ -242,23 +242,23 @@
         </p>
 
         <!-- form -->
-        <div class="grid   lg:grid-cols-2 gap-6  ">
-          <label class="input  flex items-center rounded-full">
+        <div class="grid   grid-cols-2 gap-6   ">
+          <label class="input col-span-2 lg:col-span-1  flex items-center rounded-full">
             <input type="text" placeholder="First Name*" />
           </label>
-          <label class="input  flex items-center rounded-full">
+          <label class="input col-span-2 lg:col-span-1  flex items-center rounded-full">
             <input type="text" placeholder="Last Name*" />
           </label>
-          <label class="input  flex items-center rounded-full">
+          <label class="input col-span-2 lg:col-span-1 flex items-center rounded-full">
             <input type="text" placeholder="Phone Number*" />
           </label>
-          <label class="input  flex items-center rounded-full">
+          <label class="input col-span-2 lg:col-span-1  flex items-center rounded-full">
             <input type="text" placeholder="Email Number*" />
           </label>
           <textarea class="textarea  col-span-2 h-[240px] rounded-3xl" placeholder="Write your message here"></textarea>
         </div>
 
-        <button class=" btn font-extrabold w-full rounded-3xl text-base bg-bgPrimary ">Send Mail <i
+        <button class=" btn font-extrabold w-full rounded-full lg:rounded-3xl text-xl lg:text-base bg-bgPrimary h-16 lg:h-12 ">Send Mail <i
             class="fas fa-arrow-right bg-black text-white w-7 h-7 rounded-full flex items-center justify-center -rotate-45  "></i>
         </button>
 
@@ -269,28 +269,31 @@
   </main>
 
 
-  <footer class="footer footer-center bg-[rgb(28,28,28)]  text-white rounded py-24">
+  <footer class="footer footer-center bg-[rgb(28,28,28)]  text-white  py-16 lg:py-24 flex flex-col">
 
-    <div class="flex">
-      <i class="fas fa-arrow-right -rotate-45 bg-bgPrimary w-7 h-7 rounded-full flex items-center justify-center text-black "></i>
-      <h1 class="text-3xl font-extrabold">Rinterio</h1> 
-    </div>
-
-    <p class="text-[rgb(115,115,115)] w-2/5 font-semibold tracking-wide leading-6 -mt-6 ">At Rinterio, we’re dedicated to creating spaces that blend style with functionality. Stay in touch for the latest in our design and construction endeavors.</p>
     
-    <ul class="menu menu-horizontal   space-x-24 tracking-wider ">
-      <li><a class="font-extrabold">Home</a></li>
-      <div class=" flex gap-20">
-        <li><a>Services</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>Blogs</a></li>
-        <li><a>Contact Us</a></li>
+      <div class="flex">
+        <i class="fas fa-arrow-right -rotate-45 bg-bgPrimary w-7 h-7 rounded-full flex items-center justify-center text-black "></i>
+        <h1 class="text-3xl font-extrabold">Rinterio</h1> 
       </div>
-    </ul>
-
-    <a class=" btn font-extrabold w-[180px] rounded-3xl text-base bg-bgPrimary flex ">Book Consult <i
-      class="fas fa-arrow-right bg-black text-white w-7 h-7 rounded-full flex items-center justify-center -rotate-45  "></i>
-  </a>
+  
+      <p class="text-[rgb(115,115,115)] w-11/12 lg:w-2/5 font-semibold tracking-wide leading-6 -mt-6 ">At Rinterio, we’re dedicated to creating spaces that blend style with functionality. Stay in touch for the latest in our design and construction endeavors.</p>
+      
+      <ul class=" flex flex-col lg:flex-row gap-9 lg:gap-32   tracking-wider ">
+        
+          <li><a class="font-extrabold">Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        
+      </ul>
+  
+      <a class=" btn font-extrabold w-10/12 lg:w-[180px] rounded-full lg:rounded-3xl text-xl lg:text-base bg-bgPrimary h-16 lg:h-12 flex ">Book Consult <i
+        class="fas fa-arrow-right bg-black text-white w-7 h-7 rounded-full flex items-center justify-center -rotate-45  "></i>
+    </a>
+    
+    
 
 
   </footer>
